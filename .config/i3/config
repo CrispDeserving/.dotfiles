@@ -14,8 +14,6 @@ set $down_keybr j
 set $up_keybr k
 set $right_keybr l
 
-set $i3lockr_script "~/scripts/i3/i3lockr --blur=30 --darken=50 --icon=/media/users/Data/pictures/duck-sphere.png -- --nofork"
-
 set $mod Mod4
 
 font pango:Timmana Regular 15
