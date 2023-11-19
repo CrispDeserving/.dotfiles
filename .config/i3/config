@@ -180,11 +180,10 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-set $chrome_github "crx_mjoklplbddabcmpepnokjaffbmgbkkgg"
 # Application Asssignments
 assign [class="Code"] $ws3
 assign [class="Godot"] $ws4
-assign [class=$chrome_github] $ws9
+assign [title="GitHub"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
 
