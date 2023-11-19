@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/home/jameson/scripts/i3/i3lockr --blur=30 --darken=50 --icon=/media/users/Data/pictures/duck-sphere.png -- --nofork
+$HOME/scripts/i3/i3lockr --blur=30 --darken=50 --icon=/media/users/Data/pictures/duck-sphere.png -- --nofork
