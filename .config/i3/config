@@ -247,6 +247,7 @@ bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 exec firefox
 exec --no-startup-id nitrogen --restore
+exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
 gaps outer 4 px
 gaps inner 5 px
