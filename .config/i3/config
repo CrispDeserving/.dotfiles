@@ -242,7 +242,7 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-bindsym $mod+Shift+x exec $i3lockr_script
+bindsym $mod+Shift+x exec $HOME/.config/i3/i3lockr_script 
 bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 exec firefox
