@@ -252,8 +252,3 @@ gaps outer 4 px
 gaps inner 5 px
 
 default_border pixel
-# On new system:
-# - Have Font Awesome (solid and brands) (https:/fontawesome.com)
-# - Install nitrogen (sudo apt install nitrogen)
-# - Install rofi (sudo apt install rofi)
-# - Install i3lockr (https://github.com/owenthewizard/i3lockr) 
