@@ -246,7 +246,7 @@ bindsym $mod+Shift+x exec $HOME/.config/i3/i3lockr_script
 bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 exec firefox
-exec_always nitrogen --restore 
+exec --no-startup-id nitrogen --restore
 
 gaps outer 4 px
 gaps inner 5 px
