@@ -160,7 +160,7 @@ set $ws1 "1: Main/Browsing"
 set $ws2 "2: Terminal"
 set $ws3 "3: Code"
 set $ws4 "4: Godot"
-set $ws5 "5: Unnamed 1"
+set $ws5 "5: Documents"
 set $ws6 "6: Unnamed 2"
 set $ws7 "7: Unnamed 3"
 set $ws8 "8: Unnamed 4"
@@ -197,6 +197,7 @@ assign [class="Godot"] $ws4
 assign [title="GitHub"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
+assign [class="libreoffice-*"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
