@@ -13,6 +13,10 @@
 - Install i3lockr (https://github.com/owenthewizard/i3lockr) 
 - Install i3-battery-popup (https://github.com/rjekker/i3-battery-popup)
 - Install pulseaudio-utils (sudo apt install pulseaudio-utils)
+- Install maim (sudo apt install maim)
+- Install xclip (sudo apt install xclip)
+- Install xdotool (sudo apt install xdotool)
+
 
 _That is all..._
 

@@ -28,7 +28,7 @@ font pango:Timmana Regular 15
 # - Timmana Regular 12
 # - Yrsa Regular 15
 
-
+exec /usr/libexec/gnome-settings-daemon
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font pango:monospace 10
@@ -62,6 +62,17 @@ exec --no-startup-id $HOME/i3-battery-popup/i3-battery-popup -L 20% -I 5% -m "Um
 # Polybar setup
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 for_window [class="Nm-connection-editor"] floating enable
+
+set $screenshot_path $HOME/Pictures/Screenshots
+## Screenshots
+bindsym Print exec --no-startup-id maim "$screenshot_path/$(date)"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$screenshot_path/$(date)"
+bindsym Shift+Print exec --no-startup-id maim --select "$screenshot_path/$(date)"
+
+## Clipboard Screenshots
+bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # Use pactl to adjust volume in PulseAudio.
 set $audio_delta 5%
