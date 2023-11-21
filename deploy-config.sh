@@ -11,3 +11,5 @@ if [[ ! -e $i3lockr_path ]]; then
 	echo "($script_name) **Warning**: i3lockr is required in this path: $i3lockr_path"
 fi
 
+sudo cp -r -u "$script_path/keyd" /etc 
+sudo keyd reload

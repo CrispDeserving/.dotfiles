@@ -16,7 +16,7 @@
 - Install maim (sudo apt install maim)
 - Install xclip (sudo apt install xclip)
 - Install xdotool (sudo apt install xdotool)
-
+- Install keyd (https://github.com/rvaiya/keyd)
 
 _That is all..._
 
