@@ -12,7 +12,6 @@ if [[ ! -e $i3lockr_path ]]; then
 fi
 
 if [[ $# -ne 0 ]]; then
-	echo "has args"
 	sudo cp -r -u "$script_path/keyd" /etc 
 	sudo keyd reload
 fi
