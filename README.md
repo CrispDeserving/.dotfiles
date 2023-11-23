@@ -21,6 +21,7 @@
 - Install xdotool (sudo apt install xdotool)
 - Install keyd (https://github.com/rvaiya/keyd)
 - Install lxappearance (sudo apt install lxappearance)
+- Install alacritty (sudo apt install alacritty)
 
 ## Themes tried
 - Graphite-gtk-theme (https://github.com/vinceliuice/Graphite-gtk-theme)
