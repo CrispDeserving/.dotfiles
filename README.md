@@ -6,6 +6,7 @@
 ## On new system:
 - Have Font Awesome (solid and brands) (https:/fontawesome.com)
 - Have Overpass Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
+- Have Lexend (https://www.lexend.com/)
 
 - **INSTALL i3 (sudo apt install i3)**
 - Install polybar (sudo apt install polybar)
@@ -20,6 +21,10 @@
 - Install xdotool (sudo apt install xdotool)
 - Install keyd (https://github.com/rvaiya/keyd)
 - Install lxappearance (sudo apt install lxappearance)
+
+## Themes tried
+- Graphite-gtk-theme (https://github.com/vinceliuice/Graphite-gtk-theme)
+- Adwaita (preinstalled in Ubuntu Gnome)
 
 _That is all..._
 

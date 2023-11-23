@@ -16,7 +16,7 @@ set $right_keybr l
 
 set $mod Mod4
 
-font pango:Timmana Regular 15
+font pango:Lexend Light 12 
 # Options:
 # - FreeSans Bold 12
 # - Karumbi Regular 20
