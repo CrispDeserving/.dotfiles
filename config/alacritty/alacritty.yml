@@ -39,7 +39,7 @@ font:
     family: OverpassM Nerd Font Propo
     style: SemiBold 
 
-  size: 8.0
+  size: 10.0
   builtin_box_drawing: true
 
 draw_bold_text_with_bright_colors: false
