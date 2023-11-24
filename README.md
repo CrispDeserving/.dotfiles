@@ -1,11 +1,14 @@
 # .dotfiles
+This config is mainly for i3 (sudo apt install i3).
 
 ## Checks
 - Make sure applications/fonts needed are installed
-- Add a login_text file (better maintained here inside config)
+- Add a login_text file (better maintained here inside the config)
 
 ## On new system:
-- Have Font Awesome (solid and brands) (https:/fontawesome.com)
+
+### Fonts, miscallaneous
+- Have Font Awesome (solid and brands) (https://fontawesome.com)
 - Have OverpassM Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
 - Have Symbols Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.0/NerdFontsSymbolsOnly.zip) as fallback
 - Have Lexend (https://www.lexend.com/)
@@ -13,7 +16,7 @@
 - Check if locker logo is properly linked in `i3lockr_script` file
 - Check .gitignore
 
-- **INSTALL i3 (sudo apt install i3)**
+### Applications
 - Install polybar (sudo apt install polybar)
 - Install nitrogen (sudo apt install nitrogen)
 - Install rofi (sudo apt install rofi)
