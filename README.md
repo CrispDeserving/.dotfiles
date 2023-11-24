@@ -2,10 +2,14 @@
 
 ## Checks
 - Make sure applications/fonts needed are installed
+- Add this line to `~/.profile`:
+```bash
+    $ export TERMINAL=usr/bin/alacritty
+```
 
 ## On new system:
 - Have Font Awesome (solid and brands) (https:/fontawesome.com)
-- Have Overpass Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
+- Have OverpassM Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
 - Have Lexend (https://www.lexend.com/)
 
 - **INSTALL i3 (sudo apt install i3)**

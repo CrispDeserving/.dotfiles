@@ -90,7 +90,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id i3-sensible-terminal 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -210,8 +210,8 @@ mode "exit" {
 	bindsym l exec i3-msg exit
 	bindsym r exec systemctl -i reboot
 	bindsym s exec systemctl -i poweroff
-	bindsym e mode "default"; exec pkill -15 nagbar
-	bindsym Escape mode "default"; exec pkill -15 nagbar
+	bindsym e mode "default"; exec --no-startup-id pkill -15 nagbar
+	bindsym Escape mode "default"; exec --no-startup-id pkill -15 nagbar
 }
 
 # Font awesome glyphs
@@ -220,7 +220,8 @@ bindsym $mod+Shift+e mode "exit"; exec i3-nagbar \
 	-m ' SESSION EXIT OPTIONS ' \
 	-B ' [L]ogout' 	'i3-msg exit' \
 	-B ' [R]estart'	'systemctl -i reboot' \
-	-B ' [S]hutdown'	'systemctl -i poweroff' 
+	-B ' [S]hutdown'	'systemctl -i poweroff' \
+        -f 'OverpassM Nerd Font:size=10'
 
 
 # resize window (you can also use the mouse for that)
