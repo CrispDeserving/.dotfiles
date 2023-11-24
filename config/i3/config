@@ -90,7 +90,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id i3-sensible-terminal 
+bindsym $mod+Return exec --no-startup-id alacritty 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -221,7 +221,6 @@ bindsym $mod+Shift+e mode "exit"; exec i3-nagbar \
 	-B ' [L]ogout' 	'i3-msg exit' \
 	-B ' [R]estart'	'systemctl -i reboot' \
 	-B ' [S]hutdown'	'systemctl -i poweroff' \
-        -f 'OverpassM Nerd Font:size=10'
 
 
 # resize window (you can also use the mouse for that)
@@ -261,7 +260,7 @@ bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/i3/i3lockr_script
 bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 exec firefox
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
 gaps outer 4 px
