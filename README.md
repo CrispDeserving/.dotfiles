@@ -2,15 +2,16 @@
 
 ## Checks
 - Make sure applications/fonts needed are installed
-- Add this line to `~/.profile`:
-```bash
-    $ export TERMINAL=usr/bin/alacritty
-```
+- Add a login_text file (better maintained here inside config)
 
 ## On new system:
 - Have Font Awesome (solid and brands) (https:/fontawesome.com)
 - Have OverpassM Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
+- Have Symbols Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.0/NerdFontsSymbolsOnly.zip) as fallback
 - Have Lexend (https://www.lexend.com/)
+- Have a login_text file ready using (https://patorjk.com/software/taag/#p=display&v=0&f=Tmplr)
+- Check if locker logo is properly linked in `i3lockr_script` file
+- Check .gitignore
 
 - **INSTALL i3 (sudo apt install i3)**
 - Install polybar (sudo apt install polybar)
