@@ -28,6 +28,13 @@ font pango:Lexend Light 12
 # - Timmana Regular 12
 # - Yrsa Regular 15
 
+set $bg____ #f5f3ef  
+set $fg____ #171421
+set $blue__ #12488b 
+set $white_ #d0cfcc 
+set $magent #a347ba
+set $yellow #a2734c 
+
 exec --no-startup-id /usr/libexec/gnome-settings-daemon
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
