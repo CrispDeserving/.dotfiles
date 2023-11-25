@@ -24,20 +24,20 @@ scrolling:
 
 font:
   normal:
-    family: OverpassM Nerd Font 
+    family: OverpassM Nerd Font
     style: Regular
 
   bold:
     family: OverpassM Nerd Font 
-    style: Bold 
+    style: SemiBold 
 
   italic:
     family: OverpassM Nerd Font 
-    style: Italic
+    style: Light
 
   bold_italic:
-    family: OverpassM Nerd Font Propo
-    style: SemiBold 
+    family: OverpassM Nerd Font
+    style: Bold 
 
   size: 10.0
   builtin_box_drawing: true
