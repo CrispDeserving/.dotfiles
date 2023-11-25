@@ -24,6 +24,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install i3-battery-popup (https://github.com/rjekker/i3-battery-popup)
 - Install lxpolkit (sudo apt install lxpolkit)
 - Install pulseaudio-utils (sudo apt install pulseaudio-utils)
+- Install dunst (sudo apt install dunst)
 - Install maim (sudo apt install maim)
 - Install xclip (sudo apt install xclip)
 - Install xdotool (sudo apt install xdotool)
