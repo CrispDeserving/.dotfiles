@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = (0, 300)
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -123,7 +123,7 @@
 
     ### Text ###
 
-    font = Lexend 12 
+    font = Lexend 14 
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -163,7 +163,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<span font='18'>%s</span>\n%b"
+    format = "<span weight='bold' size='125%'>%s</span>\n<span weight='light'>%b</span>"
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -192,7 +192,7 @@
     hide_duplicate_count = false
 
     # Display indicators for URLs (U) and actions (A).
-    show_indicators = yes
+    show_indicators = no 
 
     ### Icons ###
 
@@ -217,7 +217,7 @@
     max_icon_size = 128
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
 
     ### History ###
 
