@@ -34,8 +34,16 @@ This config is mainly for i3 (sudo apt install i3).
 - Install alacritty (sudo apt install alacritty)
 
 ## Themes tried
+
+### System
 - Graphite-gtk-theme (https://github.com/vinceliuice/Graphite-gtk-theme)
 - Adwaita (preinstalled in Ubuntu Gnome)
+
+### Firefox
+- Light (https://addons.mozilla.org/en-US/firefox/addon/kervensvolcy-light/)
+
+### Chrome
+- Default light is good enough, I think 
 
 _That is all..._
 
