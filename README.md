@@ -5,6 +5,9 @@ This config is mainly for i3 (sudo apt install i3).
 - Make sure applications/fonts needed are installed
 - Add a login_text file (better maintained here inside the config)
 
+## Todo:
+- Wait polybar 3.7 on Ubuntu (systray as module: https://polybar.readthedocs.io/en/stable/user/modules/tray.html)
+
 ## On new system:
 
 ### Fonts, miscallaneous
