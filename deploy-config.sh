@@ -14,11 +14,15 @@ show_help() {
 	"
 }
 
+run_sudos() {
+	sudo cp -r -u "$script_path/keyd" /etc 
+	sudo keyd reload
+}
+
 if [[ $# -ne 0 ]]; then
 	case $1 in
-		-s)
-			sudo cp -r -u "$script_path/keyd" /etc 
-			sudo keyd reload
+		-s|--sudo)
+			run_sudos
 		;;
 
 		--help|-h)
@@ -27,7 +31,7 @@ if [[ $# -ne 0 ]]; then
 
 		*)
 			show_help
-			echo "($script_name): **Warning**: Invalid args."
+			echo "($script_name): **Fatal**: Invalid args."
 		exit 1;;
 	esac
 fi
