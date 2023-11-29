@@ -38,6 +38,7 @@ if [[ ! -e $i3lockr_path ]]; then
 fi
 
 rsync -a $script_path/config/ $HOME/.config
+rsync -a $script_path/user-root-config/ $HOME
 
 killall dunst || error_code=$? # prevents exit on error
 notify-send --urgency=low --expire-time=5000 "Config file updated" "Try to see what changed!"
