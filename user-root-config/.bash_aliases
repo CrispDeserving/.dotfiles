@@ -1,5 +1,5 @@
 alias mkdir="mkdir --parents --verbose"
-alias aptdate="sudo apt update && sudo apt upgrade" 
+alias aptdate="sudo apt update && sudo apt upgrade && sudo apt autoremove" 
 alias wget="wget -c"
 
 cdn () {
