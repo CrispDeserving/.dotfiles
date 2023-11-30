@@ -235,13 +235,15 @@ mode "exit" {
 	bindsym Escape mode "default"; exec --no-startup-id pkill -15 nagbar
 }
 
+bindsym $mod+Shift+e exec $HOME/.config/i3/dmenu_exit_options 
+
 # Font awesome glyphs
-bindsym $mod+Shift+e mode "exit"; exec i3-nagbar \
-	-t warning \
-	-m ' SESSION EXIT OPTIONS ' \
-	-B ' [L]ogout' 	'i3-msg exit' \
-	-B ' [R]estart'	'systemctl -i reboot' \
-	-B ' [S]hutdown'	'systemctl -i poweroff' \
+# bindsym $mod+Shift+e mode "exit"; exec i3-nagbar \
+# 	-t warning \
+# 	-m ' SESSION EXIT OPTIONS ' \
+# 	-B ' [L]ogout' 	'i3-msg exit' \
+# 	-B ' [R]estart'	'systemctl -i reboot' \
+# 	-B ' [S]hutdown'	'systemctl -i poweroff' \
 
 
 # resize window (you can also use the mouse for that)

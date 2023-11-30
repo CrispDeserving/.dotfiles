@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+
+logout_string='Logout'
+restart_string='Restart'
+shutdown_string='Shutdown'
+options_string="$logout_string\n$restart_string\n$shutdown_string"
+
+prompt=' SESSION EXIT OPTIONS '
+result=$(printf $options_string | rofi -dmenu -p $prompt)
+
+case $result in
+	$logout_string)
+		i3-msg exit
+	exit 0;;
+
+	$restart_string)
+		systemctl -i reboot
+	exit 0;;
+
+	$shutdown_string)
+		systemctl -i poweroff
+	exit 0;;
+
+	*)
+		echo "welp"
+	exit 0;;
+esac
