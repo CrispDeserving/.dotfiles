@@ -1,13 +1,14 @@
 #!/bin/bash
 set -e
 
+cancel_string='Cancel'
 logout_string='Logout'
 restart_string='Restart'
 shutdown_string='Shutdown'
-options_string="$logout_string\n$restart_string\n$shutdown_string"
+options_string="$cancel_string\n$logout_string\n$restart_string\n$shutdown_string"
 
-prompt=' SESSION EXIT OPTIONS '
-result=$(printf $options_string | rofi -dmenu -p $prompt)
+prompt='SESSION_EXIT_OPTIONS'
+result=$(printf $options_string | rofi -dmenu -p $prompt -i)
 
 case $result in
 	$logout_string)
@@ -20,9 +21,5 @@ case $result in
 
 	$shutdown_string)
 		systemctl -i poweroff
-	exit 0;;
-
-	*)
-		echo "welp"
 	exit 0;;
 esac
