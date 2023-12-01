@@ -145,4 +145,4 @@ click-to-exit: true;
       sorting-method:    "name";
   }
 }
-@theme "fancy"
+@theme "~/.config/rofi/fancy-theme.rasi"
