@@ -36,6 +36,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install keyd (https://github.com/rvaiya/keyd)
 - Install lxappearance (sudo apt install lxappearance)
 - Install alacritty (sudo apt install alacritty)
+- Install picom (sudo apt install)
 
 ## Themes tried
 
