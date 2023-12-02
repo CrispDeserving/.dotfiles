@@ -21,6 +21,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Check .gitignore
 
 ### Applications
+- Install lightdm (sudo apt install lightdm)
 - Install polybar (sudo apt install polybar)
 - Install nitrogen (sudo apt install nitrogen)
 - Install rofi (sudo apt install rofi)

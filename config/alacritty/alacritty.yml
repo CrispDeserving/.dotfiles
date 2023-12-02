@@ -39,7 +39,7 @@ font:
     family: OverpassM Nerd Font
     style: Bold 
 
-  size: 10.0
+  size: 14.0
   builtin_box_drawing: true
 
 draw_bold_text_with_bright_colors: false
