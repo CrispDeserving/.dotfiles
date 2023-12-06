@@ -200,6 +200,18 @@ bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 
+# change other screen outputs
+workspace $ws1 output primary
+workspace $ws2 output primary
+workspace $ws3 output primary
+workspace $ws4 output primary
+workspace $ws5 output primary
+# workspace $ws6
+# workspace $ws7
+# workspace $ws8
+workspace $ws9 output primary
+workspace $ws10 output primary
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
@@ -287,6 +299,7 @@ exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
 gaps outer 4 px
-gaps inner 5 px
+gaps inner 6 px
 
+focus_wrapping no
 default_border pixel
