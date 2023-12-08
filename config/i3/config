@@ -15,6 +15,7 @@ set $up_keybr k
 set $right_keybr l
 
 set $mod Mod4
+set $alt Mod1
 
 font pango:Lexend Light 12 
 # Options:
@@ -187,6 +188,17 @@ set $ws7 "7: Unnamed 3"
 set $ws8 "8: Unnamed 4"
 set $ws9 "9: Github"
 set $ws10 "10: Utils"
+
+bindsym $mod+$alt+1 exec $HOME/.config/i3/workspace_default_app_open 1
+bindsym $mod+$alt+2 exec $HOME/.config/i3/workspace_default_app_open 2
+bindsym $mod+$alt+3 exec $HOME/.config/i3/workspace_default_app_open 3
+bindsym $mod+$alt+4 exec $HOME/.config/i3/workspace_default_app_open 4
+bindsym $mod+$alt+5 exec $HOME/.config/i3/workspace_default_app_open 5
+bindsym $mod+$alt+6 exec $HOME/.config/i3/workspace_default_app_open 6
+bindsym $mod+$alt+7 exec $HOME/.config/i3/workspace_default_app_open 7
+bindsym $mod+$alt+8 exec $HOME/.config/i3/workspace_default_app_open 8
+bindsym $mod+$alt+9 exec $HOME/.config/i3/workspace_default_app_open 9
+bindsym $mod+$alt+0 exec $HOME/.config/i3/workspace_default_app_open 0
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1

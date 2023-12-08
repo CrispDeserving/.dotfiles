@@ -1,0 +1,52 @@
+#!/bin/bash
+set -e
+
+if [[ $# -ne 1 ]]; then
+	echo "$0: Expected 1 argument, got $#."
+	exit 1
+fi
+
+ws1="1: Main/Browsing"
+ws2="2: Terminal"
+ws3="3: Code"
+ws4="4: Godot"
+ws5="5: Documents"
+ws6="6: Unnamed 2"
+ws7="7: Unnamed 3"
+ws8="8: Unnamed 4"
+ws9="9: Github"
+ws10="10: Utils"
+
+case $1 in
+	1)
+		i3-msg workspace $ws1
+		firefox &	
+	;;
+	
+	2)
+		i3-msg workspace $ws2
+		alacritty &	
+	;;
+
+	3)
+		i3-msg workspace $ws3
+		code &
+	;;
+
+	4)
+		i3-msg workspace $ws4
+		Godot_v4* &
+	;;
+
+	5)
+		i3-msg workspace $ws6
+		libreoffice &
+	;;
+
+	# add some more stuff, or rofi cycle here 
+
+	0)
+		i3-msg workspace $ws10
+		obsidian &
+	;;
+esac
