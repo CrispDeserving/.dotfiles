@@ -39,11 +39,15 @@ case $1 in
 	;;
 
 	5)
-		i3-msg workspace $ws6
+		i3-msg workspace $ws5
 		libreoffice &
 	;;
 
 	# add some more stuff, or rofi cycle here 
+	9)
+		i3-msg workspace $ws9
+		google-chrome --app-id=mjoklplbddabcmpepnokjaffbmgbkkgg &
+	;;
 
 	0)
 		i3-msg workspace $ws10
