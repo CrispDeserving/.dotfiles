@@ -36,7 +36,8 @@ This config is mainly for i3 (sudo apt install i3).
 - Install xdotool (sudo apt install xdotool)
 - Install lxappearance (sudo apt install lxappearance)
 - Install alacritty (sudo apt install alacritty)
-- Install picom (sudo apt install)
+- Install picom (sudo apt install picom)
+- Install blueman (sudo apt install blueman)
 
 ## Themes tried
 
