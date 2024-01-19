@@ -6,8 +6,13 @@ alias conf="cd $HOME/.dotfiles"
 alias nconf="cd $HOME/.config/nvim"
 
 cdn () {
-	pushd .
-	for ((i=1; i<=$1; i++))
+	if [[ -z $1 ]] then
+		jumps=1
+	else
+		jumps=$1
+	fi
+
+	for ((i=1; i<=$jumps; i++))
 		do cd ..
 	done
 	pwd
