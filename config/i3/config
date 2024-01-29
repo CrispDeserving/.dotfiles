@@ -246,7 +246,7 @@ assign [class="Godot"] $ws4
 assign [title="GitHub"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
-assign [class="libreoffice-*"] $ws5
+assign [instance="libreoffice"] $ws5
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
