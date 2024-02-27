@@ -84,9 +84,9 @@ for_window [class="Nm-connection-editor"] floating enable
 
 set $screenshot_path $HOME/Pictures/Screenshots
 ## Screenshots
-bindsym Print exec --no-startup-id maim "$screenshot_path/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$screenshot_path/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "$screenshot_path/$(date)"
+bindsym Print exec --no-startup-id maim "$screenshot_path/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$screenshot_path/$(date).png"
+bindsym Shift+Print exec --no-startup-id maim --select "$screenshot_path/$(date).png"
 
 ## Clipboard Screenshots
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
