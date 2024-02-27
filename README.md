@@ -39,6 +39,8 @@ This config is mainly for i3 (sudo apt install i3).
 - Install picom (sudo apt install picom)
 - Install blueman (sudo apt install blueman)
 - Install light (sudo apt install light)
+- Install neovim (sudo apt install neovim)
+- Install tmux (sudo apt install tmux)
 
 ## Themes tried
 
