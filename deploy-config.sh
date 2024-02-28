@@ -44,6 +44,6 @@ fi
 rsync -a $script_path/config/ $HOME/.config
 rsync -a $script_path/user-root-config/ $HOME
 
-tmux source-file ~/.config/tmux/tmux.conf
-killall dunst || error_code=$? # prevents exit on error
+tmux source-file ~/.config/tmux/tmux.conf || error_code=$? # prevents exit on error
+killall dunst || error_code=$?
 notify-send --urgency=low --expire-time=5000 "Config file updated" "Try to see what changed!"
