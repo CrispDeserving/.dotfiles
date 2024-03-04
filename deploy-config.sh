@@ -15,6 +15,7 @@ show_help() {
 }
 
 run_sudos() {
+	sudo cp -r -u $script_path/login_text.txt /etc/motd
 	sudo cp -r -u "$script_path/keyd" /etc 
 	sudo keyd reload
 }
