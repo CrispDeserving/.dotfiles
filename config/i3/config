@@ -310,7 +310,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/i3/i3lockr_script 
 bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
-bindsym $mod+Shift+f exec --no-startup-id ~/.config/rofi/launch-with-filter.sh "Browser"
+bindsym $mod+Shift+f exec --no-startup-id ~/.config/rofi/launch-with-filter.sh "WebBrowser"
 
 exec firefox
 exec --no-startup-id sleep 3; nitrogen --restore
