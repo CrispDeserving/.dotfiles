@@ -8,11 +8,11 @@ fi
 
 ws1="1: Main/Browsing"
 ws2="2: Terminal"
-ws3="3: Code"
-ws4="4: Godot"
+ws3="3: Dev"
+ws4="4: Sandbox"
 ws5="5: Documents"
-ws6="6: Unnamed 2"
-ws7="7: Unnamed 3"
+ws6="6: Unnamed"
+ws7="7: Presentation"
 ws8="8: Discord"
 ws9="9: Work"
 ws10="10: Utils"
@@ -30,7 +30,7 @@ case $1 in
 
 	3)
 		i3-msg workspace $ws3
-		code &
+		restfox &
 	;;
 
 	4)
