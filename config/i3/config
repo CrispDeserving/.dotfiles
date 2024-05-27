@@ -223,8 +223,8 @@ workspace $ws3 output primary
 workspace $ws4 output primary
 workspace $ws5 output primary
 # workspace $ws6
-# workspace $ws7
-# workspace $ws8
+workspace $ws7 output secondary
+workspace $ws8 output primary
 workspace $ws9 output primary
 workspace $ws10 output primary
 
