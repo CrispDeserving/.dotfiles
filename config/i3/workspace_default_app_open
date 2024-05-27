@@ -13,7 +13,7 @@ ws4="4: Godot"
 ws5="5: Documents"
 ws6="6: Unnamed 2"
 ws7="7: Unnamed 3"
-ws8="8: Unnamed 4"
+ws8="8: Discord"
 ws9="9: Work"
 ws10="10: Utils"
 
@@ -44,6 +44,11 @@ case $1 in
 	;;
 
 	# add some more stuff, or rofi cycle here 
+	8)
+		i3-msg workspace $ws8
+		discord &
+	;;
+
 	9)
 		i3-msg workspace $ws9
 		flatpak run one.ablaze.floorp &

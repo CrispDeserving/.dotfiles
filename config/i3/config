@@ -189,7 +189,7 @@ set $ws4 "4: Godot"
 set $ws5 "5: Documents"
 set $ws6 "6: Unnamed 2"
 set $ws7 "7: Unnamed 3"
-set $ws8 "8: Unnamed 4"
+set $ws8 "8: Discord"
 set $ws9 "9: Work"
 set $ws10 "10: Utils"
 
@@ -248,6 +248,7 @@ assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
 assign [instance="libreoffice"] $ws5
 assign [class="floorp"] $ws9
+assign [class="discord"] $ws8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -315,6 +316,7 @@ bindsym $mod+Shift+f exec --no-startup-id ~/.config/rofi/launch-with-filter.sh "
 
 exec firefox
 exec flatpak run one.ablaze.floorp
+exec discord
 exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
