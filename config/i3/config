@@ -190,7 +190,7 @@ set $ws5 "5: Documents"
 set $ws6 "6: Unnamed 2"
 set $ws7 "7: Unnamed 3"
 set $ws8 "8: Unnamed 4"
-set $ws9 "9: Github"
+set $ws9 "9: Work"
 set $ws10 "10: Utils"
 
 bindsym $mod+$alt+1 exec $HOME/.config/i3/workspace_default_app_open 1
@@ -247,6 +247,7 @@ assign [title="GitHub"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
 assign [instance="libreoffice"] $ws5
+assign [class="floorp"] $ws9
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -313,6 +314,7 @@ bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 bindsym $mod+Shift+f exec --no-startup-id ~/.config/rofi/launch-with-filter.sh "WebBrowser"
 
 exec firefox
+exec flatpak run one.ablaze.floorp
 exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
