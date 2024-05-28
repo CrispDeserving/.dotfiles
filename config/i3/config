@@ -243,13 +243,13 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # Application Asssignments
 assign [class="Code"] $ws3
 assign [class="Godot"] $ws4
+assign [class="Soffice"] $ws5
+assign [instance="libreoffice"] $ws5
+assign [class="discord"] $ws8
 assign [title="GitHub"] $ws9
+assign [class="floorp"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
-assign [instance="libreoffice"] $ws5
-assign [class="Soffice"] $ws5
-assign [class="floorp"] $ws9
-assign [class="discord"] $ws8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
