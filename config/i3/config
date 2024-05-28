@@ -247,6 +247,7 @@ assign [title="GitHub"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
 assign [instance="libreoffice"] $ws5
+assign [class="Soffice"] $ws5
 assign [class="floorp"] $ws9
 assign [class="discord"] $ws8
 
