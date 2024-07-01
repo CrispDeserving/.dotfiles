@@ -1,0 +1,92 @@
+# My config of alacritty, most probably barebones
+
+live_config_reload = true
+working_directory = "None"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#5e5c64"
+blue = "#2a7bde"
+cyan = "#33c7de"
+green = "#33d17a"
+magenta = "#c061cb"
+red = "#f66151"
+white = "#ffffff"
+yellow = "#e9ad0c"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.normal]
+black = "#171421"
+blue = "#12488b"
+cyan = "#2aa1b3"
+green = "#26a269"
+magenta = "#a347ba"
+red = "#c01c28"
+white = "#d0cfcc"
+yellow = "#a2734c"
+
+[colors.primary]
+background = "#f5f3ef"
+foreground = "#171421"
+
+[colors.selection]
+background = "CellForeground"
+text = "CellBackground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+shape = "Block"
+
+[font]
+builtin_box_drawing = true
+size = 14.0
+
+[font.bold]
+family = "OverpassM Nerd Font"
+style = "SemiBold"
+
+[font.bold_italic]
+family = "OverpassM Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "OverpassM Nerd Font"
+style = "Light"
+
+[font.normal]
+family = "OverpassM Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[window]
+decorations_theme_variant = "None"
+dynamic_padding = true
+dynamic_title = true
+opacity = 1.0
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
