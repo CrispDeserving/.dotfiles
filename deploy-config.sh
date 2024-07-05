@@ -7,7 +7,7 @@ script_name="deploy-config"
 show_help() {
 	echo "
 	$script_name
-	
+
 	Usage:
 		-h/--help: Show this help.
 		-s/--sudo: Execute commands that needs sudo permissions.
@@ -16,7 +16,7 @@ show_help() {
 
 run_sudos() {
 	sudo cp -r -u $script_path/login_text.txt /etc/motd
-	sudo cp -r -u "$script_path/keyd" /etc 
+	sudo cp -r -u "$script_path/keyd" /etc
 	sudo keyd reload
 }
 
