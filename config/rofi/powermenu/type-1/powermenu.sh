@@ -11,7 +11,7 @@
 
 # Current Theme
 dir="$HOME/.config/rofi/powermenu/type-1"
-theme='style-1'
+theme='style-5'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -97,9 +97,6 @@ case ${chosen} in
     $lock)
 		if [[ -x '/usr/bin/betterlockscreen' ]]; then
 			betterlockscreen -l
-		elif [[ -x '~/scripts/i3/i3lockr' ]]; then
-			notify-send "thing"
-			~/.config/i3/i3lockr_script
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi
