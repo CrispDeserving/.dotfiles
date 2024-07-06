@@ -26,7 +26,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install nitrogen (sudo apt install nitrogen)
 - Install rofi (sudo apt install rofi)
 - Install keyd (https://github.com/rvaiya/keyd)
-- Install i3lockr (https://github.com/owenthewizard/i3lockr) 
+- Install i3lockr (https://github.com/owenthewizard/i3lockr)
 - Install i3-battery-popup (https://github.com/rjekker/i3-battery-popup)
 - Install lxpolkit (sudo apt install lxpolkit)
 - Install pulseaudio-utils (sudo apt install pulseaudio-utils)
@@ -41,6 +41,9 @@ This config is mainly for i3 (sudo apt install i3).
 - Install light (sudo apt install light)
 - Install neovim (sudo apt install neovim)
 - Install tmux (sudo apt install tmux)
+- Install xclip (sudo apt install xclip)
+- Install xfce4-power-manager (sudo apt install xfce4-power-manager)
+- Install xfce4-settings (sudo apt install xfce4-settings)
 
 ## Themes tried
 
@@ -52,7 +55,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Light (https://addons.mozilla.org/en-US/firefox/addon/kervensvolcy-light/)
 
 ### Chrome
-- Default light is good enough, I think 
+- Default light is good enough, I think
 
 ## Browser extensions
 
@@ -62,4 +65,3 @@ This config is mainly for i3 (sudo apt install i3).
 
 
 _That is all..._
-
