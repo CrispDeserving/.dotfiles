@@ -9,7 +9,7 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser";
+	modi:                       "drun,run,filebrowser,window";
     show-icons:                 true;
     display-drun:               "";
     display-run:                "";
@@ -17,6 +17,11 @@ configuration {
     display-window:             "";
 	drun-display-format:        "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";
 	window-format:              "{w} · {c} · {t}";
+	matching: "fuzzy";
+
+	kb-accept-entry: "Return";
+	kb-mode-next: "Alt+j";
+	kb-mode-previous: "Alt+k";
 }
 
 /*****----- Global Properties -----*****/
@@ -74,9 +79,9 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
@@ -87,9 +92,9 @@ mainbox {
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px 0px 1px 0px;
     border-radius:               0px;
     border-color:                @border-colour;
@@ -102,6 +107,7 @@ prompt {
     enabled:                     true;
     background-color:            inherit;
     text-color:                  inherit;
+	padding: 0px 0.5ch 0px 0px;
 }
 textbox-prompt-colon {
     enabled:                     true;
@@ -152,9 +158,9 @@ scrollbar {
 /*****----- Elements -----*****/
 element {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
@@ -201,7 +207,7 @@ element alternate.active {
 element-icon {
     background-color:            transparent;
     text-color:                  inherit;
-    size:                        24px;
+    size:                        1em;
     cursor:                      inherit;
 }
 element-text {
@@ -216,7 +222,7 @@ element-text {
 /*****----- Mode Switcher -----*****/
 mode-switcher{
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
@@ -226,7 +232,7 @@ mode-switcher{
     text-color:                  @foreground-colour;
 }
 button {
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
@@ -251,7 +257,7 @@ message {
     text-color:                  @foreground-colour;
 }
 textbox {
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
@@ -265,7 +271,7 @@ textbox {
     markup:                      true;
 }
 error-message {
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
