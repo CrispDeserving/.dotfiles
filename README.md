@@ -15,6 +15,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Have OverpassM Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Overpass.zip)
 - Have Symbols Nerd Font (https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.0/NerdFontsSymbolsOnly.zip) as fallback
 - Have Lexend (https://www.lexend.com/)
+- Install Bibata Modern Ice (https://github.com/ful1e5/Bibata_Cursor/releases)
 - Create an i3 color scheme using (https://thomashunter.name/i3-configurator/)
 - Have a login_text file ready using (https://patorjk.com/software/taag/#p=display&v=0&f=Tmplr)
 - Check if locker logo is properly linked in `i3lockr_script` file

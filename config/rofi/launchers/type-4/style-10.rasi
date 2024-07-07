@@ -2,7 +2,7 @@
  *
  * Author : Aditya Shakya (adi1090x)
  * Github : @adi1090x
- * 
+ *
  * Rofi Theme File
  * Rofi Version: 1.7.3
  **/
@@ -74,9 +74,9 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     5px;
+    spacing:                     0.25em;
     margin:                      0px;
-    padding:                     5px;
+    padding:                     0.25em;
     border:                      0px solid;
     border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
@@ -101,7 +101,7 @@ inputbar {
 
 prompt {
     enabled:                     true;
-    padding:                     5px 10px;
+    padding:                     0.25em 0.5em;
     border:                      0px;
     border-radius:               100%;
     border-color:                @border-colour;
@@ -118,7 +118,7 @@ textbox-prompt-colon {
 entry {
     enabled:                     true;
     expand:                      false;
-    padding:                     5px 10px;
+    padding:                     0.25em 0.5em;
     width:                       200px;
     border-radius:               100%;
     background-color:            @alternate-background;
@@ -141,8 +141,8 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-    
-    spacing:                     5px;
+
+    spacing:                     0.25em;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
@@ -153,7 +153,7 @@ listview {
     cursor:                      "default";
 }
 scrollbar {
-    handle-width:                5px ;
+    handle-width:                0.25em ;
     handle-color:                @handle-colour;
     border-radius:               0px;
     background-color:            @alternate-background;
@@ -162,9 +162,9 @@ scrollbar {
 /*****----- Elements -----*****/
 element {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
-    padding:                     5px 10px;
+    padding:                     0.25em 0.5em;
     border:                      0px solid;
     border-radius:               100%;
     border-color:                @border-colour;
@@ -226,7 +226,7 @@ element-text {
 /*****----- Mode Switcher -----*****/
 mode-switcher{
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     0.5em;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
@@ -236,7 +236,7 @@ mode-switcher{
     text-color:                  @foreground-colour;
 }
 button {
-    padding:                     10px;
+    padding:                     0.5em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
@@ -261,7 +261,7 @@ message {
     text-color:                  @foreground-colour;
 }
 textbox {
-    padding:                     5px;
+    padding:                     0.25em;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @border-colour;
