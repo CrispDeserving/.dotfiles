@@ -7,7 +7,7 @@ script_name="deploy-config"
 show_help() {
 	echo "
 	$script_name
-	
+
 	Usage:
 		-h/--help: Show this help.
 		-s/--sudo: Execute commands that needs sudo permissions.
@@ -16,7 +16,7 @@ show_help() {
 
 run_sudos() {
 	sudo cp -r -u $script_path/login_text.txt /etc/motd
-	sudo cp -r -u "$script_path/keyd" /etc 
+	sudo cp -r -u "$script_path/keyd" /etc
 	sudo keyd reload
 }
 
@@ -37,8 +37,8 @@ if [[ $# -ne 0 ]]; then
 	esac
 fi
 
-i3lockr_path="$HOME/scripts/i3/i3lockr"
-if [[ ! -e $i3lockr_path ]]; then
+i3lockr_path="/usr/bin/i3lockr"
+if [[ ! (-e $i3lockr_path) ]]; then
 	echo "($script_name) **Warning**: i3lockr is required in this path: $i3lockr_path"
 fi
 

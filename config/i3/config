@@ -17,7 +17,7 @@ set $right_keybr l
 set $mod Mod4
 set $alt Mod1
 
-font pango:Lexend Light 12 
+font pango:Lexend Light 12
 # Options:
 # - FreeSans Bold 12
 # - Karumbi Regular 20
@@ -29,17 +29,17 @@ font pango:Lexend Light 12
 # - Timmana Regular 12
 # - Yrsa Regular 15
 
-set $bg____ #f5f3ef  
+set $bg____ #f5f3ef
 set $fg____ #171421
-set $blue__ #12488b 
-set $white_ #d0cfcc 
+set $blue__ #12488b
+set $white_ #d0cfcc
 set $magent #a347ba
-set $yellow #a2734c 
+set $yellow #a2734c
 
 # i3 window color scheme (almost same colors as alacritty console colors.
 # Made using an online color schemer (look at README)
 # class                 border  bground text    indicator child_border
-client.focused          #D0CFCC #6B6B6B #FFFFFF #A347BA   #D0CFCC 
+client.focused          #D0CFCC #6B6B6B #FFFFFF #A347BA   #D0CFCC
 client.focused_inactive #5F676A #D0CFCC #171421 #D0CFCC   #D0CFCC
 client.unfocused        #5F676A #D0CFCC #171421 #D0CFCC   #D0CFCC
 client.urgent           #C1900A #E9AD0C #C01C28 #E9AD0C   #E9AD0C
@@ -82,20 +82,22 @@ exec --no-startup-id $HOME/i3-battery-popup/i3-battery-popup -L 20% -I 5% -m "Um
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 for_window [class="Nm-connection-editor"] floating enable
 
-set $screenshot_path $HOME/Pictures/Screenshots
-## Screenshots
-bindsym Print exec --no-startup-id maim "$screenshot_path/$(date).png"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$screenshot_path/$(date).png"
-bindsym Shift+Print exec --no-startup-id maim --select "$screenshot_path/$(date).png"
+bindsym Print exec --no-startup-id ~/.config/rofi/applets/bin/screenshot.sh
 
-## Clipboard Screenshots
-bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+# set $screenshot_path $HOME/Pictures/Screenshots
+# ## Screenshots
+# bindsym Print exec --no-startup-id maim "$screenshot_path/$(date).png"
+# bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "$screenshot_path/$(date).png"
+# bindsym Shift+Print exec --no-startup-id maim --select "$screenshot_path/$(date).png"
+#
+# ## Clipboard Screenshots
+# bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+# bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+# bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # Control brightness using light
-bindsym XF86MonBrightnessUp exec light -A 5 
-bindsym XF86MonBrightnessDown exec light -U 5 
+bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessDown exec light -U 5
 
 # Use pactl to adjust volume in PulseAudio.
 set $audio_delta 5%
@@ -116,7 +118,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty 
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -124,7 +126,7 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindcode $mod+40 exec --no-startup-id ~/.config/rofi/launch-with-filter.sh ""
+bindcode $mod+40 exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -265,7 +267,7 @@ mode "exit" {
 	bindsym Escape mode "default"; exec --no-startup-id pkill -15 nagbar
 }
 
-bindsym $mod+Shift+e exec $HOME/.config/i3/dmenu_exit_options 
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/rofi/powermenu/type-1/powermenu.sh
 
 # Font awesome glyphs
 # bindsym $mod+Shift+e mode "exit"; exec i3-nagbar \
@@ -309,10 +311,8 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/i3/i3lockr_script 
+bindsym $mod+Shift+x exec --no-startup-id $HOME/.config/i3/i3lockr_script
 bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
-
-bindsym $mod+Shift+f exec --no-startup-id ~/.config/rofi/launch-with-filter.sh "WebBrowser"
 
 exec firefox
 exec flatpak run one.ablaze.floorp
