@@ -64,9 +64,9 @@ This config is mainly for i3 (sudo apt install i3).
 - Vimium (vim-like keybindings in the browser, very cool)
     - Firefox (https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
     - Chrome (https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
-
 - SurfingKeys (vim-like keybindings in the browser, very cool)
     - Firefox (https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff)
     - Chrome (https://chromewebstore.google.com/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
+    - Add this repo's config online (for your own risk, ofc): https://raw.githubusercontent.com/CrispDeserving/.dotfiles/main/surfingkeys/config.js
 
 _That is all..._
