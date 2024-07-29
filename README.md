@@ -64,5 +64,8 @@ This config is mainly for i3 (sudo apt install i3).
     - Firefox (https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
     - Chrome (https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
+- SurfingKeys (vim-like keybindings in the browser, very cool) (has more features than vimium)
+    - Firefox (https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff)
+    - Chrome (https://chromewebstore.google.com/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
 
 _That is all..._
