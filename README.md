@@ -42,6 +42,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install light (sudo apt install light)
 - Install neovim (sudo apt install neovim)
 - Install tmux (sudo apt install tmux)
+- Install lazygit (https://github.com/jesseduffield/lazygit)
 - Install xclip (sudo apt install xclip)
 - Install xfce4-power-manager (sudo apt install xfce4-power-manager)
 - Install xfce4-settings (sudo apt install xfce4-settings)
@@ -64,7 +65,7 @@ This config is mainly for i3 (sudo apt install i3).
     - Firefox (https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
     - Chrome (https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
-- SurfingKeys (vim-like keybindings in the browser, very cool) (has more features than vimium)
+- SurfingKeys (vim-like keybindings in the browser, very cool)
     - Firefox (https://addons.mozilla.org/en-US/firefox/addon/surfingkeys_ff)
     - Chrome (https://chromewebstore.google.com/detail/surfingkeys/gfbliohnnapiefjpjlpjnehglfpaknnc)
 
