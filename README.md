@@ -42,6 +42,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install light (sudo apt install light)
 - Install neovim (sudo apt install neovim)
 - Install tmux (sudo apt install tmux)
+- Install fzf (sudo apt install fzf)
 - Install lazygit (https://github.com/jesseduffield/lazygit)
 - Install xclip (sudo apt install xclip)
 - Install xfce4-power-manager (sudo apt install xfce4-power-manager)
