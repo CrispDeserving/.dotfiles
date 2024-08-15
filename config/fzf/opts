@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export FZF_SET_OPTS="\
+--cycle \
+--border \
+"

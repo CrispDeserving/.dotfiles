@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ~/.config/fzf/colors
+source ~/.config/fzf/opts
+
+export FZF_DEFAULT_OPTS=$FZF_SET_OPTS$FZF_COLORSCHEME

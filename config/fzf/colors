@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Created from https://minsw.github.io/fzf-color-picker/
+# Colors are from alacritty config colors and `melange-nvim`
+
+export FZF_COLORSCHEME="\
+--color='fg:#171421' \
+--color='fg+:#a06d00' \
+--color='bg:#f5f3ef' \
+--color='bg+:#d0cfcc' \
+--color='hl:#465aa4' \
+--color='hl+:#465aa4' \
+--color='info:#a98a78' \
+--color='prompt:#3a684a' \
+--color='pointer:#af5fff' \
+--color='marker:#7d6658' \
+--color='spinner:#904180' \
+--color='header:#87afaf' \
+"
