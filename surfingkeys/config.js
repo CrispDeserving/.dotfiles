@@ -1,5 +1,6 @@
 // Surfingkeys config by noAbbreviation
 settings.richHintsForKeystroke = 200;
+settings.tabsThreshold = 0;
 
 settings.hintAlign = "left";
 settings.hintExplicit = true;
@@ -28,6 +29,17 @@ api.map("L", "D");
 // api.map('gT', 'E');
 api.map("K", "R");
 api.map("J", "E");
+
+// omnibar selection of prev and next items
+api.cmap("<Alt-n>", "<Tab>");
+api.cmap("<Alt-p>", "<Shift-Tab>");
+
+// search aliases
+api.addSearchAlias(
+  "t",
+  "github",
+  "https://github.com/search?type=repositories&q=",
+);
 
 // color scheme
 // most is from my alacritty terminal colors
