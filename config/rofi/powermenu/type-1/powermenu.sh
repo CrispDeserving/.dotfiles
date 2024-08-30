@@ -54,7 +54,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+	echo -e "$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
 }
 
 # Execute Command
@@ -95,11 +95,13 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		# if [[ -x '/usr/bin/betterlockscreen' ]]; then
+		# 	betterlockscreen -l
+		# elif [[ -x $HOME/.config/i3/i3lockr_script ]]; then
+		# 	$HOME/.config/i3/i3lockr_script
+		# elif [[ -x '/usr/bin/i3lock' ]]; then
+		# 	i3lock
+		# fi
         ;;
     $suspend)
 		run_cmd --suspend

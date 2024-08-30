@@ -23,7 +23,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       605px;
+    width:                       550px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -118,7 +118,7 @@ error-message {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     5;
+    columns:                     4;
     lines:                       1;
     cycle:                       true;
     dynamic:                     true;
