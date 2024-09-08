@@ -1,0 +1,9 @@
+set font "OverpassM Nerd Font normal 12"
+
+set default-bg "#171421"
+
+set statusbar-bg "#5e5c64"
+set statusbar-fg "#ffffff"
+
+set render-loading-bg "#171421"
+set render-loading-fg "#171421"
