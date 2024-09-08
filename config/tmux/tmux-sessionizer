@@ -4,7 +4,7 @@ source ~/.config/fzf/export-settings
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/ -mindepth 1 -maxdepth 1 -type d | fzf)
+    selected=$(find ~/ ~/projects ~/personal ~/work -mindepth 1 -maxdepth 1 -type d | fzf)
 fi
 
 if [[ -z $selected ]]; then
