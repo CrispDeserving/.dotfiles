@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-source ~/.config/fzf/export-settings
 
 if [[ $# -eq 1 ]]; then
     selected=$1
@@ -23,4 +22,5 @@ if ! tmux has-session -t=$selected_name 2> /dev/null; then
     tmux new-session -ds $selected_name -c $selected
 fi
 
+tmux attach
 tmux switch-client -t $selected_name
