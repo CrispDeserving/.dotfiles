@@ -1,6 +1,9 @@
 alias mkdir="mkdir --parents --verbose"
-alias aptdate="sudo apt update && sudo apt upgrade && sudo apt autoremove"
+alias rm="rm --interactive=once --verbose"
+
+alias aptdate="sudo apt update || sudo apt upgrade || sudo apt autoremove"
 alias wget="wget -c"
+
 alias lg="lazygit"
 
 alias conf="cd $HOME/.dotfiles"
