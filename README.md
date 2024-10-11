@@ -29,6 +29,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install keyd (https://github.com/rvaiya/keyd)
 - Install i3lockr (https://github.com/owenthewizard/i3lockr)
 - Install i3-battery-popup (https://github.com/rjekker/i3-battery-popup)
+- Install mission-center (https://flathub.org/apps/io.missioncenter.MissionCenter)
 - Install lxpolkit (sudo apt install lxpolkit)
 - Install pulseaudio-utils (sudo apt install pulseaudio-utils)
 - Install dunst (sudo apt install dunst)
