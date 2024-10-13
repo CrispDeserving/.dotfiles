@@ -1,6 +1,8 @@
 format = """
 [      ](bg:#d0cfcc fg:#171421)\
-[](fg:#d0cfcc  bg:#769ff0)\
+[](fg:#d0cfcc bg:#26a269)\
+$custom\
+[](fg:#26a269 bg:#769ff0)\
 $directory\
 [](fg:#769ff0 bg:#394260)\
 $git_branch\
@@ -35,6 +37,12 @@ format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
 [git_status]
 style = "bg:#394260"
 format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
+
+[custom.tmux]
+command = "echo "
+when = """ tmux has-session &>/dev/null """
+style = "fg:#1d2230 bg:#26a269"
+format = "[ $output ]($style)"
 
 [nodejs]
 symbol = ""
