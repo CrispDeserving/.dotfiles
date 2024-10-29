@@ -36,6 +36,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install maim (sudo apt install maim)
 - Install xclip (sudo apt install xclip)
 - Install xdotool (sudo apt install xdotool)
+- Install viewnior (sudo apt install viewnior)
 - Install lxappearance (sudo apt install lxappearance)
 - Install alacritty (sudo apt install alacritty)
 - Install picom (sudo apt install picom)
