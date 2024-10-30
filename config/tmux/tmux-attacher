@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+if [[ -n $TMUX ]]; then
+	script_name=$(basename "$0")
+	echo "error: \"$script_name\" is redundant inside TMUX, use <leader>s instead."
+	exit 1
+fi
+
+sessions="$(tmux ls | cut --delimiter=':' --field='1')"
+if [[ $(echo "$sessions" | wc -l) -eq 1 ]]; then
+	tmux attach-session -t $sessions
+	exit 0
+fi
+
+selected_session=$(echo "$sessions" | fzf)
+if [[ -n $selected_session ]]; then
+	tmux attach-session -t $selected_session
+fi
