@@ -42,7 +42,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install picom (sudo apt install picom)
 - Install blueman (sudo apt install blueman)
 - Install light (sudo apt install light)
-- Install neovim (sudo apt install neovim)
+- Install neovim (https://github.com/neovim/neovim/blob/master/BUILD.md)
 - Install tmux (sudo apt install tmux)
 - Install fzf (sudo apt install fzf)
 - Install lazygit (https://github.com/jesseduffield/lazygit)
