@@ -50,6 +50,11 @@ This config is mainly for i3 (sudo apt install i3).
 - Install xfce4-power-manager (sudo apt install xfce4-power-manager)
 - Install xfce4-settings (sudo apt install xfce4-settings)
 
+### Programming language toolchain stuffs
+- Install uv (Python package manager written in Rust) (https://docs.astral.sh/uv/)
+- Install rustup (Rust programming language toolchain) (https://www.rust-lang.org/tools/install)
+- Setup golang (https://go.dev/doc/install)
+
 ## Themes tried
 
 ### System
