@@ -55,6 +55,14 @@ This config is mainly for i3 (sudo apt install i3).
 - Install rustup (Rust programming language toolchain) (https://www.rust-lang.org/tools/install)
 - Setup golang (https://go.dev/doc/install)
 
+### Dictionary
+- Install goldendict (sudo apt install goldendict)
+  - Install dictd (sudo apt install dictd)
+  - Install dict-gcide (sudo apt install dict-gcide)
+  - Install dict-wn (sudo apt install dict-wn)
+  - Install packages for pronounciation (sudo apt install libao-dev ffmpeg)
+- Another alternative is wordbook (https://flathub.org/apps/dev.mufeed.Wordbook)
+
 ## Themes tried
 
 ### System
