@@ -3,6 +3,7 @@ alias rm="rm --interactive=once --verbose"
 
 alias aptdate="sudo apt update; sudo apt upgrade; sudo apt autoremove"
 alias wget="wget -c"
+alias pingle="ping google.com"
 
 alias lg="lazygit"
 
