@@ -18,44 +18,44 @@ ws9="9: Work"
 ws10="10: Utils"
 
 case $1 in
-	1)
-		i3-msg workspace $ws1
-		firefox &	
-	;;
-	
-	2)
-		i3-msg workspace $ws2
-		alacritty &	
+1)
+	i3-msg workspace $ws1
+	firefox &
 	;;
 
-	3)
-		i3-msg workspace $ws3
-		restfox &
+2)
+	i3-msg workspace $ws2
+	alacritty &
 	;;
 
-	4)
-		i3-msg workspace $ws4
-		Godot_v4* &
+3)
+	i3-msg workspace $ws3
+	restfox &
 	;;
 
-	5)
-		i3-msg workspace $ws5
-		libreoffice &
+4)
+	i3-msg workspace $ws4
+	Godot_v4* &
 	;;
 
-	# add some more stuff, or rofi cycle here 
-	8)
-		i3-msg workspace $ws8
-		discord &
+5)
+	i3-msg workspace $ws5
+	libreoffice &
 	;;
 
-	9)
-		i3-msg workspace $ws9
-		flatpak run one.ablaze.floorp &
+# add some more stuff, or rofi cycle here
+8)
+	i3-msg workspace $ws8
+	flatpak run dev.vencord.Vesktop
 	;;
 
-	0)
-		i3-msg workspace $ws10
-		obsidian &
+9)
+	i3-msg workspace $ws9
+	flatpak run one.ablaze.floorp &
+	;;
+
+0)
+	i3-msg workspace $ws10
+	obsidian &
 	;;
 esac

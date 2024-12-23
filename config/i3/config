@@ -248,6 +248,7 @@ assign [class="Godot"] $ws4
 assign [class="Soffice"] $ws5
 assign [instance="libreoffice"] $ws5
 assign [class="discord"] $ws8
+assign [class="vesktop"] $ws8
 assign [class="floorp"] $ws9
 assign [class="Bitwarden"] $ws10
 assign [class="obsidian"] $ws10
@@ -321,7 +322,7 @@ bindsym $mod+t exec $HOME/.config/i3/approxima-go_script
 
 exec firefox
 exec flatpak run one.ablaze.floorp
-exec discord
+exec flatpak run dev.vencord.Vesktop
 exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
