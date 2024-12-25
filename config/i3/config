@@ -319,6 +319,7 @@ bindsym $mod+Shift+d exec "baobab"
 bindsym $mod+Shift+u exec "~/.config/polybar/mission-center-run.sh"
 
 bindsym $mod+t exec $HOME/.config/i3/approxima-go_script
+bindsym $mod+$alt+d exec `polybar-msg action "#date.toggle"`
 
 exec firefox
 exec flatpak run one.ablaze.floorp
