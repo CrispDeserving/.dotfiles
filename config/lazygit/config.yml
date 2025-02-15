@@ -1,0 +1,9 @@
+customCommands:
+  - key: <c-a>
+    context: "global"
+    command: 'git commit --allow-empty --amend --date="now" --no-edit'
+    description: "Amend commit date to today"
+    prompts:
+      - type: "confirm"
+        title: "Amend commit date"
+        body: "Are you sure you want to change the latest commit date to today?"
