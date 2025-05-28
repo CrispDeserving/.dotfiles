@@ -96,8 +96,8 @@ bindsym Print exec --no-startup-id ~/.config/rofi/applets/bin/screenshot.sh
 # bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # Control brightness using light
-bindsym XF86MonBrightnessUp exec light -A 5
-bindsym XF86MonBrightnessDown exec light -U 5
+bindsym XF86MonBrightnessUp exec light -A 2
+bindsym XF86MonBrightnessDown exec light -U 2
 
 # Use pactl to adjust volume in PulseAudio.
 set $audio_delta 5%
