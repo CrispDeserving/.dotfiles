@@ -1,3 +1,6 @@
+git:
+  paging:
+    externalDiffCommand: "git diff --no-ext-diff --word-diff=plain --color"
 customCommands:
   - key: <c-a>
     context: "global"
