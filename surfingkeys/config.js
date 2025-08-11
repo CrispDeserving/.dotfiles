@@ -41,6 +41,8 @@ api.addSearchAlias(
   "https://github.com/search?type=repositories&q=",
 );
 
+api.addSearchAlias("o", "golang packages", "https://pkg.go.dev/search?q=");
+
 // color scheme
 // most is from my alacritty terminal colors
 const background = {
