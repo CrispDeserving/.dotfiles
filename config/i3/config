@@ -327,8 +327,8 @@ exec flatpak run dev.vencord.Vesktop
 exec --no-startup-id sleep 3; nitrogen --restore
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11
 
-gaps outer 4 px
-gaps inner 6 px
+gaps outer 4
+gaps inner 6
 
 focus_wrapping no
 default_border pixel
