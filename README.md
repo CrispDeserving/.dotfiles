@@ -54,6 +54,7 @@ This config is mainly for i3 (sudo apt install i3).
 - Install xclip (sudo apt install xclip)
 - Install xfce4-power-manager (sudo apt install xfce4-power-manager)
 - Install xfce4-settings (sudo apt install xfce4-settings)
+- Install approxima (go install github.com/noAbbreviation/approxima)
 
 ### Programming language toolchain stuffs
 

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-~/go/bin/approxima-go --assets=$HOME/projects/approxima-go/assets

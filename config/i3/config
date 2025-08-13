@@ -318,7 +318,7 @@ bindsym $mod+Shift+p exec "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 bindsym $mod+Shift+d exec "baobab"
 bindsym $mod+Shift+u exec "~/.config/polybar/mission-center-run.sh"
 
-bindsym $mod+t exec $HOME/.config/i3/approxima-go_script
+bindsym $mod+t exec "approxima"
 bindsym $mod+$alt+d exec `polybar-msg action "#date.toggle"`
 
 exec firefox
