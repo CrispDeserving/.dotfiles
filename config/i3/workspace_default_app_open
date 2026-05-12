@@ -19,43 +19,35 @@ ws10="10: Utils"
 
 case $1 in
 1)
-	i3-msg workspace $ws1
-	firefox &
+	i3-msg "workspace $ws1; exec firefox"
 	;;
 
 2)
-	i3-msg workspace $ws2
-	alacritty &
+	i3-msg "workspace $ws2; exec alacritty"
 	;;
 
 3)
-	i3-msg workspace $ws3
-	restfox &
+	i3-msg "workspace $ws3; exec restfox"
 	;;
 
 4)
-	i3-msg workspace $ws4
-	Godot_v4* &
+	i3-msg "workspace $ws4; exec Godot_v4*"
 	;;
 
 5)
-	i3-msg workspace $ws5
-	libreoffice &
+	i3-msg "workspace $ws5; exec libreoffice"
 	;;
 
 # add some more stuff, or rofi cycle here
 8)
-	i3-msg workspace $ws8
-	flatpak run dev.vencord.Vesktop
+	i3-msg "workspace $ws8; exec \"flatpak run dev.vencord.Vesktop\""
 	;;
 
 9)
-	i3-msg workspace $ws9
-	flatpak run one.ablaze.floorp &
+	i3-msg "workspace $ws9; exec \"flatpak run one.ablaze.floorp\""
 	;;
 
 0)
-	i3-msg workspace $ws10
-	obsidian &
+	i3-msg "workspace $ws10; exec obsidian"
 	;;
 esac
